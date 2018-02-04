@@ -1,8 +1,10 @@
 ---
 # Requires Ansible >= 1.9
 - hosts: all
+  tasks:
+    - name: hello
+      shell: echo "hello world"
   roles:
-  - shell: echo "hello world"
   #- dumpvars
   #- ispmail-packages
   #- ispmail-certificate
