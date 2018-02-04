@@ -2,11 +2,12 @@
 # Requires Ansible >= 1.9
 - hosts: all
   roles:
+  - shell: echo "hello world"
   #- dumpvars
-  - ispmail-packages
-  - ispmail-certificate
-  - ispmail-database
-  - ispmail-postfix
-  - ispmail-dovecot
-  - ispmail-webmail
-  - ispmail-webmail-apache
+  #- ispmail-packages
+  #- ispmail-certificate
+  #- ispmail-database
+  #- ispmail-postfix
+  #- ispmail-dovecot
+  #- ispmail-webmail
+  #- ispmail-webmail-apache
